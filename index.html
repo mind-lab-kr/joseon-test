@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>조선시대에 태어났다면?</title>
+<meta name="description" content="10가지 질문으로 알아보는 조선시대 나의 신분! 선비, 장수, 거상, 화공, 의병, 예인 중 당신은?">
+<meta property="og:title" content="조선시대에 태어났다면?">
+<meta property="og:description" content="당신은 조선시대에서 어떤 삶을 살았을까요? 지금 바로 확인해보세요!">
+<meta property="og:image" content="images/joseon-test-banner.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<script>
+  // 공유 링크(?result=유형코드)로 접속한 경우, 실제 테스트/결과 페이지로 자동 이동
+  (function () {
+    var params = new URLSearchParams(window.location.search);
+    var result = params.get("result");
+    if (result) {
+      window.location.replace("joseon-test.html?result=" + encodeURIComponent(result));
+    }
+  })();
+</script>
+
+<header class="site-header">
+  <div class="logo">🏯 조선시대에 태어났다면?</div>
+  <p class="tagline">10가지 질문으로 알아보는 나의 조선시대 신분과 삶</p>
+</header>
+
+<main class="container">
+  <section id="test-list-section">
+    <div class="test-grid" id="testGrid">
+      <!-- 조선시대 테스트 -->
+      <a class="test-card has-banner" href="joseon-test.html">
+        <span class="badge">인기</span>
+        <img class="card-banner" src="images/joseon-test-banner.png" alt="조선시대에 태어났다면? 테스트 배너">
+        <h3>조선시대에 태어났다면?</h3>
+        <p>당신의 성향으로 알아보는 조선시대 속 나의 신분과 삶. 양반부터 의병까지, 당신은 누구였을까?</p>
+        <span class="start-link">테스트 시작 →</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  ⓒ 2026 조선시대에 태어났다면? · 본 결과는 재미로 즐기는 콘텐츠이며 과학적 근거가 없습니다.
+</footer>
+
+</body>
+</html>
