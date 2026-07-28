@@ -468,7 +468,7 @@ function renderResultStages(key) {
 
     <div class="coupang-panel">
       <span class="ad-badge">📢 광고</span>
-      <h3>쿠팡 링크 클릭하기</h3>
+      <h3>더 자세한 결과 보기</h3>
       <p>버튼을 누르면 광고(쿠팡 상품) 페이지가 새 창으로 열립니다.<br>그 창을 닫으시면 이어서 심층 결과가 나타납니다.</p>
       <div class="coupang-item-card">
         <div class="item-emoji">${r.coupang.itemEmoji}</div>
